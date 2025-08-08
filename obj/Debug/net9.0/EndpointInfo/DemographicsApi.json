@@ -1,0 +1,32 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "DemographicsApi",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Demographics/{name}": {
+      "get": {
+        "tags": [
+          "Demographics"
+        ],
+        "parameters": [
+          {
+            "name": "name",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

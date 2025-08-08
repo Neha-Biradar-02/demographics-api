@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "DemographicsApi.Controllers.DemographicsController",
+    "Method": "GetDemographics",
+    "RelativePath": "api/Demographics/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
